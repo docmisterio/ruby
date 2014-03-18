@@ -1,5 +1,14 @@
-lineWidth = 30
-puts 'Chapter 1: ''Numbers'.ljust(lineWidth) + 'page 1'.rjust(lineWidth)
-puts 'Chapter 2: ''Letters'.ljust(lineWidth) + 'page 72'.rjust(lineWidth)
-puts 'Chapter 3: ''Variables'.ljust(lineWidth) + 'page 118'.rjust(lineWidth)
-#working on this for the chapter 5 homework
+puts rand
+puts rand
+puts rand
+puts ''
+
+puts (rand(100))
+puts (rand(100))
+puts (rand(100))
+puts (rand(1))
+puts (rand(1))
+puts (rand(1))
+puts (rand(9999999999999999999999999999999999))
+puts ('The weatherman said there is a ' + rand(101).to_s + '% chance of rain,')
+puts ('but you can never trust a weatherman.')
